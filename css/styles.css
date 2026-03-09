@@ -1,0 +1,149 @@
+/* Color Palette
+# - #41431B
+# - #AEB784
+# - #E3DBBB
+# - #F8F3E1
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    /* background: #41431B; */
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+}
+
+li {
+    margin: 20px;
+}
+
+section {
+    scroll-margin-top: 25px;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 50px;
+}
+
+.navigation a {
+    border-radius: 99px;
+    margin: 0px 20px 0px 20px;
+    padding: 15px;
+    font-weight: bold;
+    background: #41431B;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.content-wrap {
+    /* Added Overflow hidden for formatting issue */
+    overflow: hidden;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.fa-square-github {
+    font-size: 25px;
+}
+
+.fa-square-linkedin {
+    font-size: 25px;
+}
+
+.fa-envelope {
+    font-size: 25px;
+}
+/* Header & Footer 
+------------------------------------*/
+header{
+    background: #AEB784;
+    padding-top: 50px;
+}
+
+footer {
+    background: #AEB784;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-ex {
+    background: #E3DBBB;
+}
+
+/* Projects
+------------------------------------*/
+.projects {
+    background: #AEB784;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    /* background: rgb(248, 243, 225); */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(248, 243, 225, 0.5)), url('/images/CSUN.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+/* Tech Skills
+------------------------------------*/
+.tech-skills {
+    background: #E3DBBB;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xavier Ramos | Resume</title>
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Reference Styles Sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Awesome Font -->
+    <script src="https://kit.fontawesome.com/871bd9ad4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navi" class="navigation">
+        <a href="#workEX">Work Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#techSkills">Technical Skills</a>
+        <a href="XavierRamosResume.pdf" download>PDF Download</a>
+    </nav>
+    <!-- // Intro -->
+    <header>
+
+        <div class="content-wrap">
+            <img class="profile-img column-narrow" src="images/MyPicture.png" alt="Xavier Ramos Photo">
+            <div class="column-wide">
+                <h1>Xavier Ramos</h1>
+                <h2>Software Engineer / Full Stack Developer</h2>
+                <p>
+                    Computer Science student at California State University, Northridge (GPA: 3.6)
+                    with hands-on experience building full-stack applications and architecting
+                    production-ready systems. Experienced in React, Next.js, Supabase,
+                    Shopify marketplace development, and backend database design.
+                </p>
+            </div>
+        </div>
+    </header>
+    
+    <main> 
+        <!-- // Work Experience -->
+        <section id="workEX" class="work-ex">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+                <div class="column-narrow">
+                    <h3>Freelance Full-Stack Developer</h3>
+                    <p><strong>Cameron Haus Market</strong> | Los Angeles, CA</p>
+                    <p>Jan 2026 - Present</p>
+                </div>
+                <div class="column-wide">
+                    <ul>
+                        <li>Led architecture and pre-launch deployment of a multi-vendor Shopify marketplace.</li>
+                        <li>Designed seller onboarding workflows, product lifecycle management, and checkout validation logic.</li>
+                        <li>Diagnosed and resolved shipping validation conflicts between seller-managed rates and Shopify’s native shipping layer.</li>
+                        <li>Integrated ShipStation for fulfillment and label generation while preserving Shopify checkout pricing logic.</li>
+                        <li>Delivered iterative feature updates based on stakeholder feedback while maintaining production stability.</li>
+                    </ul>
+                </div>
+
+                <div class="column-narrow">
+                    <h3>Instructional Student Assistant</h3>
+                    <p><strong>California State University, Northridge</strong> | Northridge, CA</p>
+                    <p>Aug 2025 - Present</p>
+                </div>
+
+                <div class="column-wide">
+                    <ul>
+                        <li>Evaluated programming assignments for 100+ students.</li>
+                        <li>Mentored students in debugging, memory tracing, and core programming concepts.</li>
+                        <li>Explained advanced programming topics to improve student code quality and reduce recurring logical errors.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- // Projects -->
+        <section id="projects" class="projects">
+            <div class="content-wrap">
+                <h2>Projects</h2>
+
+                <h3>KXAR CRM</h3>
+                <p><strong>Tech:</strong> Next.js, TypeScript, Supabase, Jest, Tailwind CSS</p>
+                <ul>
+                    <li>Architected a modular full-stack CRM with Supabase backend.</li>
+                    <li>Implemented row-level security (RLS) policies for user-level data isolation.</li>
+                    <li>Designed scalable authentication flows with protected routes and session validation.</li>
+                    <li>Wrote Jest tests for critical authentication flows.</li>
+                </ul>
+
+                <h3>QA Data Automation Script</h3>
+                <p><strong>Tech:</strong> Python, MongoDB, Pandas</p>
+                <ul>
+                    <li>Built a CLI tool to ingest and validate Excel/CSV QA datasets into MongoDB.</li>
+                    <li>Implemented duplicate detection and structured validation logic.</li>
+                    <li>Automated generation of repeat-bug and blocker summaries.</li>
+                    <li>Created a data-cleaning pipeline using Pandas.</li>
+                </ul>
+
+                <h3>Code Red E-Commerce</h3>
+                <p><strong>Tech:</strong> Java, JavaFX, CSS</p>
+                <ul>
+                    <li>Built a JavaFX e-commerce app with dynamic product filtering.</li>
+                    <li>Implemented a state-managed cart system using the Singleton pattern.</li>
+                    <li>Developed checkout logic with automated email confirmation simulation.</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- // Education -->
+        <section id="education" class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+
+                <h3>California State University, Northridge</h3>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>Aug 2023 – May 2026 | GPA: 3.6</p>
+            </div>
+        </section>
+
+
+        <!-- // Technical Skills -->
+        <section id="techSkills" class="tech-skills">
+            <div class="content-wrap">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Languages:</strong> Python, Java, TypeScript, JavaScript, Liquid</li>
+                    <li><strong>Frontend:</strong> React, Next.js, Tailwind CSS</li>
+                    <li><strong>Backend / Databases:</strong> PostgreSQL, MySQL, MongoDB, Supabase</li>
+                    <li><strong>Testing:</strong> Jest, JUnit</li>
+                    <li><strong>Tools:</strong> Git, VS Code, Shopify Admin</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- // Footer & contact info -->
+    <footer id="contact">
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            <div class="contact-info">
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <div>
+                    <i class="fa-solid fa-envelope"></i><a href="mailto:xramos.0227@gmail.com" style="font-size: 25px;">xramos.0227@gmail.com</a> |
+                    <i class="fa-brands fa-square-linkedin"></i><a href="https://www.linkedin.com/in/xavier-ramos-a75686200/" target="_blank" style="font-size: 25px;">LinkedIn</a> |
+                    <i class="fa-brands fa-square-github"></i><a href="https://github.com/Ekks-One" target="_blank" style="font-size: 25px;">GitHub</a>
+                </div>
+
+                <p>Copyright 2026 by Xavier Ramos</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
