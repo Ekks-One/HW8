@@ -135,7 +135,7 @@ footer {
 }
 
 .background {
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(248, 243, 225, 0.5)), url('/images/matcha.png') fixed center/cover no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(248, 243, 225, 0.5)), url('../images/matcha.png') fixed center/cover no-repeat;
     height: 250px;
 }
 
