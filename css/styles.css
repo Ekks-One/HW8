@@ -134,12 +134,17 @@ footer {
     background: #AEB784;
 }
 
+.background {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(248, 243, 225, 0.5)), url('/images/matcha.png') fixed center/cover no-repeat;
+    height: 250px;
+}
+
 /* Education
 ------------------------------------*/
 .education {
-    /* background: rgb(248, 243, 225); */
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(248, 243, 225, 0.5)), url('/images/CSUN.jpg') center/cover no-repeat;
-    background-attachment: fixed;
+    background: rgb(248, 243, 225);
+    /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(248, 243, 225, 0.5)), url('/images/CSUN.jpg') center/cover no-repeat;
+    background-attachment: fixed; */
 }
 
 /* Tech Skills
